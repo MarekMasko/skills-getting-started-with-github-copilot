@@ -73,6 +73,49 @@ section h3 {
 .activity-card p {
   margin-bottom: 8px;
 }
+/* ul is for Participants list */
+.activity-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #000080;
+}
+
+/* Participants list: hide default bullets and style entries */
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 128, 0.03);
+  margin-bottom: 6px;
+}
+
+.participant-email {
+  color: #000080;
+  word-break: break-all;
+}
+
+.unregister-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+
+.unregister-btn:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
 
 .form-group {
   margin-bottom: 15px;
