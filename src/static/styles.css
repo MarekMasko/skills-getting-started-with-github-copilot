@@ -73,7 +73,7 @@ section h3 {
 .activity-card p {
   margin-bottom: 8px;
 }
-
+/* ul is for Participants list */
 .activity-card ul {
   list-style-type: disc;
   padding-left: 20px;
